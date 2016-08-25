@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+     <remote  name="github"
+              fetch="https://github.com/"/>
+
+     <default revision="master"
+              remote="github"
+              sync-j="4" />
+
+     <project path="a" name="wsargent/docker-cheat-sheet" />
+     <project path="b" name="tiimgreen/github-cheat-sheet" />
+   </manifest>
